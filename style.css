@@ -1,0 +1,24 @@
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    text-align: center;
+    padding: 5px;
+}
+thead > tr {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+tr > :first-child {
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+td:hover {
+    background-color: rgba(255, 0, 0, 0.2);
+}
